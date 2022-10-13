@@ -6,13 +6,13 @@ const Footer = () => {
     return (
         <div className='footer'>
             <p>copyright©Fabian Gd</p>
-            <button 
+            <a 
                 className='linkedin' 
-                href="www.linkedin.com/in/fabian-gonzalez-50569124a" 
+                href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile'
                 target="_blank"
             >
                 <i className="fa-brands fa-linkedin"></i>
-            </button>
+            </a>
             
         </div>
     );
