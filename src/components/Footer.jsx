@@ -11,7 +11,7 @@ const Footer = () => {
                 href="www.linkedin.com/in/fabian-gonzalez-50569124a" 
                 target="_blank"
             >
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
             </button>
             
         </div>

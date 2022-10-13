@@ -12,7 +12,7 @@ const Projects = () => {
                     <div className="card c1">
                         <div className="icon">
                             <div className='flex'>
-                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i className="fa-solid fa-cart-shopping"></i>
                                 <p>Ecommerce</p>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ const Projects = () => {
                     <div className="card c2">
                         <div className="icon">
                             <div className='flex'>
-                                <i class="fa-solid fa-list-check"></i>
+                                <i className="fa-solid fa-list-check"></i>
                                 <p>CRUDS</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const Projects = () => {
                     <div className="card c3">
                         <div className="icon">
                             <div className='flex'>
-                                <i class="fa-solid fa-database"></i>
+                                <i className="fa-solid fa-database"></i>
                                 <p>Poke Api</p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const Projects = () => {
                     <div className="card c4">
                         <div className="icon">
                             <div className='flex'>
-                                <i class="fa-solid fa-temperature-arrow-up"></i>
+                                <i className="fa-solid fa-temperature-arrow-up"></i>
                                 <p>Climate</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const Projects = () => {
                     <div className="card c5">
                         <div className="icon">
                             <div className='flex'>
-                                <i class="fa-solid fa-palette"></i>
+                                <i className="fa-solid fa-palette"></i>
                                 <p>Glasmorfismo</p>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const Projects = () => {
                     <div className="card c6">
                         <div className="icon">
                             <div className='flex'>
-                                <i class="fa-solid fa-person-military-to-person"></i>
+                                <i className="fa-solid fa-person-military-to-person"></i>
                                 <p>Rick and Morti</p>
                             </div>
                         </div>

@@ -24,7 +24,7 @@ const Skill = () => {
             
                     <div className="card c2">
                         <div className="icon">
-                            <i class="fa-brands fa-css3-alt"></i>
+                            <i className="fa-brands fa-css3-alt"></i>
                         </div>
                         <div className="info__description">
                             <p>Organized work in independent style sheets, under international parameters.
@@ -46,7 +46,7 @@ const Skill = () => {
 
                     <div className="card c4">
                         <div className="icon">
-                            <i class="fa-brands fa-react"></i>
+                            <i className="fa-brands fa-react"></i>
                         </div>
                         <div className="info__description">
                             <p>
@@ -58,7 +58,7 @@ const Skill = () => {
 
                     <div className="card c5">
                         <div className="icon">
-                            <i class="fa-brands fa-github"></i>
+                            <i className="fa-brands fa-github"></i>
                         </div>
                         <div className="info__description">
                             <p> 
@@ -70,7 +70,7 @@ Excellent version handling with git; Use of the basic commands: branch, checkout
 
                     <div className="card c6">
                         <div className="icon">
-                            <i class="fa-brands fa-bootstrap"></i>
+                            <i className="fa-brands fa-bootstrap"></i>
                         </div>
                         <div className="info__description">
                             <p> 
