@@ -50,7 +50,7 @@ function CarouselImg() {
               Contact
               </Button>{' '}
               
-            <a onClick={submit} className='a-cv2' href='../public/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            <a onClick={submit} className='a-cv2' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
             
           </Carousel.Caption>
         </Carousel.Item>
@@ -73,7 +73,7 @@ function CarouselImg() {
             </Button>{' '}
 
             <Button onClick={navigateContact} variant="info">Contact</Button>{' '}
-            <a className='a-cv2' href='../public/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            <a className='a-cv2' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item >
@@ -95,7 +95,7 @@ function CarouselImg() {
               Rick and Mortin
               </Button>{' '}
             <Button onClick={navigateContact} variant="info">Contact</Button>{' '}
-            <a className='a-cv2' href='../public/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            <a className='a-cv2' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
             {/* <h3>Rick Mortin Api</h3> */}
           </Carousel.Caption>
         </Carousel.Item>

@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import swal from 'sweetalert';
-import logo from '../../public/Logo.png'
+import logo from '/Logo.png'
 import '../styles/Navbar.css'
 import TextAnimate from './TextAnimate';
 
@@ -45,7 +45,7 @@ const NavBar = () => {
               <Nav.Link href="#" disabled> <TextAnimate /></Nav.Link>
             </Nav>
             
-            <a onClick={submit} className='a-cv' href='../public/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            <a onClick={submit} className='a-cv' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
           </Navbar.Collapse>
         </Container>
       </Navbar>
