@@ -21,7 +21,6 @@ const submit = () => {
 
 const NavBar = () => {
 
-
   return (
       <Navbar sticky="top" bg="light" expand="lg">
         <Container fluid>
@@ -45,7 +44,7 @@ const NavBar = () => {
               <Nav.Link href="#" disabled> <TextAnimate /></Nav.Link>
             </Nav>
             
-            <a onClick={submit} className='a-cv' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            <a onClick={submit} className='download-cv-navbar' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
           </Navbar.Collapse>
         </Container>
       </Navbar>

@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import Carousel from 'react-bootstrap/Carousel';
 import swal from 'sweetalert';
 import { useNavigate } from "react-router-dom";
+import '../styles/CarouselImg.css'
 
 function CarouselImg() {
 
@@ -27,14 +28,14 @@ function CarouselImg() {
 
   return (
       <Carousel fade className="carrousel">
-        <Carousel.Item>
+        <Carousel.Item className="carrousel-item">
           <img 
             className="d-block w-100 carrousel-i"
             src='https://www.zeemo.com.au/upload/images/commercial.gif'
             alt="First slide"
             //    
           />
-          <Carousel.Caption className="container-title-navbar">
+          <Carousel.Caption className="container-btn-carrousel">
             <Button 
               variant="warning"
               href="https://incandescent-semifreddo-ffd87f.netlify.app/" 
@@ -50,18 +51,19 @@ function CarouselImg() {
               Contact
               </Button>{' '}
               
-            <a onClick={submit} className='a-cv2' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            <a onClick={submit} className='download-cv-carrousel' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
             
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+
+        <Carousel.Item className="carrousel-item">
           <img 
             className="d-block w-100 carrousel-i"
             src="https://64.media.tumblr.com/5c833479b0f4e4f9f939cb22143da980/tumblr_nrxio2XVh01sapaufo1_540.gif"
             alt="Second slide"
           />
       
-          <Carousel.Caption className="container-title-navbar">
+          <Carousel.Caption className="container-btn-carrousel">
             {/* <h3>Poke Api</h3> */}
             {/* <p>Desplegar Pokemones</p> */}
             <Button 
@@ -73,17 +75,18 @@ function CarouselImg() {
             </Button>{' '}
 
             <Button onClick={navigateContact} variant="info">Contact</Button>{' '}
-            <a className='a-cv2' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            <a className='download-cv-carrousel' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item >
+
+        <Carousel.Item className="carrousel-item">
           <img 
             className="d-block w-100 carrousel-i"
             src="https://preview.redd.it/um5y2oylxz231.gif?s=f4b807e3e6a9d82ced85f5ae1082dcfc42703922"
             alt="Third slide"
           />
       
-          <Carousel.Caption className="container-title-navbar">
+          <Carousel.Caption className="container-btn-carrousel">
             {/* <p>
               Desplegar personajes.
             </p> */}
@@ -95,7 +98,7 @@ function CarouselImg() {
               Rick and Mortin
               </Button>{' '}
             <Button onClick={navigateContact} variant="info">Contact</Button>{' '}
-            <a className='a-cv2' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
+            <a className='download-cv-carrousel' href='/CvFabianGonzalez.pdf' download>DOWNLOAD CV</a>
             {/* <h3>Rick Mortin Api</h3> */}
           </Carousel.Caption>
         </Carousel.Item>

@@ -6,8 +6,8 @@ import Projects from './pages/Projects'
 import ContactMe from './pages/ContactMe'
 import NavBar from './components/NavBar'
 import 'bootswatch/dist/lux/bootstrap.min.css';
-import './styles/App.css'
 import Footer from './components/Footer'
+// import './styles/App.css'
 
 function App() {
 

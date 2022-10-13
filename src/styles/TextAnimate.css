@@ -44,3 +44,8 @@
 .text-animate{
     margin-top: 10px;
 }
+
+.text-animate span {
+    font-size: xx-small;
+    color: rgb(255, 0, 0);
+  }

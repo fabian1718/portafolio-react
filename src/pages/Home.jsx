@@ -7,7 +7,9 @@ import Skills from './Skills';
 const Home = () => {
     return (
         <div className='container-home'>
-            <CarouselImg />
+            <div className='container-carousel-home'>
+                <CarouselImg />
+            </div>
             <Skills />
         </div>
     );
